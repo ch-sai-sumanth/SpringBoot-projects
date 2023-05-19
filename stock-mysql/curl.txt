@@ -1,0 +1,38 @@
+curl --location 'http://localhost:8080/stock/' \
+--header 'Content-Type: application/json' \
+--data '[
+    {
+       "stockName":"TCS",
+       "stockPrice":10.11,
+       "stockOwnerCount":100,
+       "stockType":"IT",
+       "stockMarketCap":46.00,
+       "stockBirthTimeStamp":"2012-04-23T18:25:43.511Z"
+    },
+    {
+       "stockName":"ITC",
+       "stockPrice":20.11,
+       "stockOwnerCount":200,
+       "stockType":"FMCG",
+       "stockMarketCap":70.00,
+       "stockBirthTimeStamp":"2015-04-23T18:25:43.511Z"
+    },
+    {
+       "stockName":"IBM",
+       "stockPrice":40.11,
+       "stockOwnerCount":200,
+       "stockType":"IT",
+       "stockMarketCap":70.00,
+       "stockBirthTimeStamp":"2020-04-23T18:25:43.511Z"
+    },
+    {
+       "stockName":"HCL",
+       "stockPrice":30.11,
+       "stockOwnerCount":100,
+       "stockType":"IT",
+       "stockMarketCap":46.00,
+       "stockBirthTimeStamp":"2016-04-23T18:25:43.511Z"
+    }
+    
+    
+]'
